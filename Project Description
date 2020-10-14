@@ -1,0 +1,15 @@
+**Project**
+
+Think about a modification to one of the models you would like to make. You could decide to change the data preparation or splitting, the model architecture, loss function, learning algorithm, or any associated paramter. Implement an experiment that enables you to evaluate the impact of your modification. Make sure that your experiment is only studying the effects of one change. For example, you could compare the learning progress of a neural network model with one hidden layer vs. two hidden layers. In this case, you should make sure to use exactly the same training and validation datasets, the same loss function, and the same learning algorithm.
+
+You are free to explore other tools for evaluation, such as a [confusion matrix](https://scikit-learn.org/stable/auto_examples/model_selection/plot_confusion_matrix.html#sphx-glr-auto-examples-model-selection-plot-confusion-matrix-py). This would be especially helpful to understand in what way our model is making classification errors.
+
+In the ribe both the model you are starting (control) with and the modification you are evaluating (experimental). What effect do you think your modification will have on training? On overall model performance? Next give a short description of what data you will use in your experiments (e.g. how many images, their format, and how many classes). Then, give a summary of results, clearly indicating the experimental condition to which they belong (i.e. control or experimental).
+
+Comment on your results. Did your modification improve your image classifier? What evidence do you have to support this? Based on your observations or any other sources, what additional changes do you think could further improve your model? Do you think the training data you used contained sufficient training examples for your model to generalize well? Justify your claim.
+
+
+**Notes**
+
+* Depending on your computer's hardware, you may need to scale back your experiments. You can try reducing the number of training iterations, the size of your training set, or the size of your model architecture. Just focus on creating a controlled experiment. 
+* Along these lines, don't run experiments that will take too long to run. Test your experiments on a small number of training iterations (5 or so) to get a sense of how long each iteration takes. Even with relatively small training sets, it could take a few hours for model training to finish.
